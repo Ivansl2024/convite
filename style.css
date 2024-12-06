@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: blueviolet;
+  height: 100vh;
+  background-image: url(./imagem/mariah\ betinho\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  background-position: center;
+  font-family: "Cedarville Cursive";
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  width: 70%;
+  font-size: 5rem;
+  font-weight: 400;
+  color: red;
+  text-align: center;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    align-items: start;
+  }
+  header h1 {
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    background-color: rgba(30, 238, 92, 0.2);
+    border-radius: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
